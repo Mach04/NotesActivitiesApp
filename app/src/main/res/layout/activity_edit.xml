@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true" android:clipToPadding="false">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:focusableInTouchMode="true">
+        <TextView android:id="@+id/screenTitle" style="@style/ScreenHeading" android:text="@string/new_note"  />
+        <TextView android:id="@+id/titleInputLabel" style="@style/BodyText" android:text="@string/title_label" android:labelFor="@id/titleInput" />
+        <EditText android:id="@+id/titleInput" style="@style/NoteInput" android:inputType="textCapSentences" android:importantForAutofill="no" android:maxLines="1" />
+        <TextView android:id="@+id/descriptionInputLabel" style="@style/BodyText" android:text="@string/description_label" android:labelFor="@id/descriptionInput" />
+        <EditText android:id="@+id/descriptionInput" style="@style/NoteInput" android:inputType="textCapSentences" android:importantForAutofill="no" android:maxLines="1" />
+        <TextView android:id="@+id/contentInputLabel" style="@style/BodyText" android:text="@string/content_label" android:labelFor="@id/contentInput" />
+        <EditText android:id="@+id/contentInput" style="@style/NoteInput" android:inputType="textMultiLine|textCapSentences" android:importantForAutofill="no" android:minLines="3" android:gravity="top" />
+        <CheckBox android:id="@+id/doneInput" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/done_label" />
+        <TextView android:id="@+id/statusHelp" style="@style/BodyText" android:text="@string/status_help" android:layout_marginTop="0dp" android:textColor="@color/text_secondary" android:layout_marginBottom="16dp" />
+        <Button android:id="@+id/saveButton" style="@style/ActionButton" android:text="@string/save" />
+        <Button android:id="@+id/cancelButton" style="@style/ActionButton" android:text="@string/cancel" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

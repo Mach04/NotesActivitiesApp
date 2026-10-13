@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true" android:clipToPadding="false">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:focusableInTouchMode="true">
+        <TextView android:id="@+id/screenTitle" style="@style/ScreenHeading" android:text="@string/statistics"  />
+        <TextView android:id="@+id/statisticsSubtitle" style="@style/BodyText" android:text="@string/statistics_subtitle"  />
+        <TextView android:id="@+id/totalCount" style="@style/BodyText" android:textSize="24sp" android:textStyle="bold" />
+        <TextView android:id="@+id/todoCount" style="@style/BodyText" android:textColor="@color/todo_text" android:textSize="22sp" />
+        <TextView android:id="@+id/doneCount" style="@style/BodyText" android:textColor="@color/done_text" android:textSize="22sp" />
+        <TextView android:id="@+id/completionText" style="@style/BodyText"  />
+        <ProgressBar android:id="@+id/completionProgress" style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent" android:layout_height="16dp" android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp" android:max="100" android:indeterminate="false" />
+        <Button android:id="@+id/backButton" style="@style/ActionButton" android:text="@string/back" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

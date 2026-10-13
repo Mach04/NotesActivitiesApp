@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="home_subtitle">Keep your ideas in one place.</string>
+    <string name="no_notes">No notes yet. Tap Add note to get started.</string>
+    <string name="status_todo">TODO</string>
+    <string name="status_done">DONE</string>
+    <string name="add_note">Add note</string>
+    <string name="about">About</string>
+    <string name="statistics">Statistics</string>
+    <string name="back">Back</string>
+    <string name="edit">Edit note</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="new_note">New note</string>
+    <string name="edit_note">Edit note</string>
+    <string name="note_details">Note details</string>
+    <string name="title_label">Title (required)</string>
+    <string name="description_label">Short description</string>
+    <string name="content_label">Full content</string>
+    <string name="done_label">Mark as DONE</string>
+    <string name="status_help">Unchecked means TODO.</string>
+    <string name="title_required">Please enter a title.</string>
+    <string name="note_status">Status: %1$s</string>
+    <string name="note_missing">This note is no longer available. Notes reset when the app process ends.</string>
+    <string name="author">Created by Manu</string>
+    <string name="about_description">Programming of Mobile Applications for Android\nLab 2 · 8 October 2026\n\nA multi-screen notes app built with Kotlin, XML layouts, and five Activities. Practice lists, Intent navigation, and creating and editing notes.</string>
+    <string name="memory_notice">Notes are stored in memory for this lab. They reset to the three examples when the app process ends.</string>
+    <string name="statistics_subtitle">See how your notes are progressing.</string>
+    <string name="total_count">Total notes: %1$d</string>
+    <string name="todo_count">TODO: %1$d</string>
+    <string name="done_count">DONE: %1$d</string>
+    <string name="completion_percent">%1$d%% complete</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="screen_background">#FFFFFF</color>
+    <color name="text_primary">#172033</color>
+    <color name="text_secondary">#586174</color>
+    <color name="accent">#2563EB</color>
+    <color name="todo_background">#FEF3C7</color>
+    <color name="todo_text">#92400E</color>
+    <color name="done_background">#DCFCE7</color>
+    <color name="done_text">#166534</color>
+</resources>

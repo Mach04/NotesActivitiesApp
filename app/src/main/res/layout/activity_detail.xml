@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true" android:clipToPadding="false">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:focusableInTouchMode="true">
+        <TextView android:id="@+id/screenTitle" style="@style/ScreenHeading" android:text="@string/note_details"  />
+        <TextView android:id="@+id/detailTitle" style="@style/BodyText" android:textSize="24sp" android:textStyle="bold" />
+        <TextView android:id="@+id/detailStatus" style="@style/BodyText" android:textColor="@color/accent" android:textStyle="bold" />
+        <TextView android:id="@+id/detailDescription" style="@style/BodyText" android:textColor="@color/text_secondary" />
+        <TextView android:id="@+id/detailContent" style="@style/BodyText" android:textIsSelectable="true" android:layout_marginBottom="24dp" />
+        <Button android:id="@+id/editButton" style="@style/ActionButton" android:text="@string/edit" />
+        <Button android:id="@+id/backButton" style="@style/ActionButton" android:text="@string/back" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
